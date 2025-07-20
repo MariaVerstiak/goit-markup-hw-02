@@ -132,7 +132,7 @@ h2{
     text-transform: capitalize;
 }
 
-.team-member-mark, .team-member-tom, .team-member-camilia, .team-member-daniel{
+.team-member{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -143,7 +143,7 @@ h2{
     color: #2e2f42;
 }
 
-.team-member-mark-vacantion, .team-member-tom-vacantion, .team-member-camilia-vacantion, .team-member-daniel-vacantion{
+.team-member-vacantion{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: normal;
