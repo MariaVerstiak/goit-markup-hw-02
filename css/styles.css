@@ -34,7 +34,7 @@ body{
 
 li a:hover{
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
 }
@@ -143,23 +143,6 @@ ul{
 
 .team-list{
     background-color: #FFFFFF;
-}
-
-.team-person{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.team-member-vacantion{
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .portfolio-title{
