@@ -8,32 +8,32 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #4d5ae5; 
 }
 
 .studio{
     color: #2e2f42;
 }
 
-.link-nav{
+.navigation-list{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02cm;
-    color: #2e2f42;
+    color: #434455;
 }
 
-.link-nav .link:hover{
+li a:hover{
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: normal;
+    letter-spacing: 0.02cm;
     color: #404bbf;
 }
 
-.link-nav .link:focus{
+li a:focus{
     color: #404bbf;
 }
 
@@ -68,7 +68,7 @@ ul{
     letter-spacing: 0.02cm;
 }
 
-title, h1{
+.main-page-title{
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02cm;
@@ -84,15 +84,15 @@ title, h1{
     line-height: 1.5;
     letter-spacing: 0.04cm;
     color: #ffffff;
+}
+
+.order-button:hover{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #404bbf;
     cursor: pointer;
 }
 
-.order-button .link:hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #404bbf;
-}
-
-.order-button .link:focus{
+.order-button:focus{
     background-color: #404bbf;
 }
 
@@ -132,7 +132,7 @@ h2{
     text-transform: capitalize;
 }
 
-.team-member-name{
+.team-member-mark, .team-member-tom, .team-member-camilia, .team-member-daniel{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -143,7 +143,7 @@ h2{
     color: #2e2f42;
 }
 
-.team-member-vacation{
+.team-member-mark-vacantion, .team-member-tom-vacantion, .team-member-camilia-vacantion, .team-member-daniel-vacantion{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: normal;
