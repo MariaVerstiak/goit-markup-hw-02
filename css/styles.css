@@ -27,9 +27,9 @@ body{
 .navigation-list{
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1,5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 li a:hover{
@@ -51,6 +51,7 @@ address{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contacts .link:hover{
@@ -90,10 +91,10 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .order-button:hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #404bbf;
     cursor: pointer;
 }
@@ -102,7 +103,7 @@ ul{
     background-color: #404bbf;
 }
 
-h2{
+.studio-title{
     font-weight: 500;
     font-size: 36px;
     line-height: 111%;
