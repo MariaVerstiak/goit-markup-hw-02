@@ -153,7 +153,7 @@ ul{
     background-color: #FFFFFF
 }
 
-.team-list h3{
+.team_mem-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -161,7 +161,7 @@ ul{
     color: #2e2f42 ;
 }
 
-.team-list p{
+.team_vacantion{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
